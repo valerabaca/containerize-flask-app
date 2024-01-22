@@ -15,7 +15,10 @@ The argument `-f containerfile` specifies the name of the containerfile if the c
 
 The build process will look as shown below if you have built this image before. Otherwise, there will be some more steps in which the various components need to be downloaded to the local compute resource.
 
-<video src="media/build_todos_flask_app_container_image.webm.mp4" width="320" height="240" controls></video>
+
+<video src="media/build_todos_flask_app_container_image.webm.mp4"></video>
+
+
 
 ## Add metadata
 
