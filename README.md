@@ -3,6 +3,8 @@ This repository contains files that define a Flask app (`app.py`, `requirements.
 
 The following sections contain descriptions of the steps to build and deploy the containerized Flask app on AdaLab.
 
+To view the videos from within the README, open it on GitHub at this URL: [https://github.com/adamatics/containerize-flask-app/blob/main/README.md](https://github.com/adamatics/containerize-flask-app/blob/main/README.md).
+
 ## Build the container image
 First, open a terminal and make sure that the directory you are in, is the folder that the repository was cloned into. Then, from the terminal, build the container image with the below command:
 
