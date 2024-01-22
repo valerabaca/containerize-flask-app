@@ -18,6 +18,7 @@ The build process will look as shown below if you have built this image before. 
 
 <video src="media/build_todos_flask_app_container_image.webm"></video>
 
+[build_todos_flask_app_container_image.webm](https://github.com/adamatics/containerize-flask-app/assets/149479200/50a9928a-2d5c-4cbe-9652-39e8ac84d7fb)
 
 
 ## Add metadata
