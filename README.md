@@ -13,10 +13,7 @@ The argument `-t to-dos-list-app:1.0` specifies the name and tag to use for the 
 The argument `-f containerfile` specifies the name of the containerfile if the containerfile is not named "Dockerfile", which is the default that the `docker build` command expects if the `-f` argument is not given.
 
 
-The build process will look as shown below if you have built this image before. Otherwise, there will be some more steps in which the various components need to be downloaded to the local compute resource.
-
-
-<video src="media/build_todos_flask_app_container_image.webm"></video>
+The build process will look as shown below:
 
 [build_todos_flask_app_container_image.webm](https://github.com/adamatics/containerize-flask-app/assets/149479200/be7792dc-16ca-491f-8afe-9a496534f8c9)
 
