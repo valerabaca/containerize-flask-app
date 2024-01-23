@@ -13,4 +13,10 @@ COPY . /app
 ENV FLASK_APP=app.py
 ENV FLASK_ENV=production
 ENV FLASK_RUN_DEBUG=false
-CMD ["gunicorn", "-w", "2", "-b", "0.0.0.0:5000", "app:app"]
+# To make the links between pages in the app work, the argument 
+# '--env SCRIPT_NAME=/apps/to-dos-app' needs to be passed, and the
+# SCRIPT_NAME must match the URL that the app is deployed at. All
+# containerized apps in AdaLab are deployed on <adalab_base_url>/apps/.
+# That is, if you want your app to be accessible at 
+# <adalab_base_url>/apps/a-very-cool-app-name, the start command should be
+# CMD ["gunicorn", "-w", "2", "-b", "0.0.0.0:5000", "--env", "SCRIPT_NAME=/apps/a-very-cool-app-name", "app:app"]
