@@ -19,4 +19,4 @@ ENV FLASK_RUN_DEBUG=false
 # containerized apps in AdaLab are deployed on <adalab_base_url>/apps/.
 # That is, if you want your app to be accessible at 
 # <adalab_base_url>/apps/a-very-cool-app-name, the start command should be
-# CMD ["gunicorn", "-w", "2", "-b", "0.0.0.0:5000", "--env", "SCRIPT_NAME=/apps/a-very-cool-app-name", "app:app"]
+CMD ["gunicorn", "-w", "2", "-b", "0.0.0.0:5000", "--env", "SCRIPT_NAME=/apps/flask-api", "app:app"]
